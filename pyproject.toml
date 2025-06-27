@@ -6,7 +6,7 @@ build-backend = "poetry.core.masonry.api"
 name = "mcp-kintone-lite"
 version = "0.1.0"
 description = "Simple and lightweight Kintone MCP server for connecting AI assistants to Kintone applications and data"
-authors = [{name = "Your Name", email = "your.email@example.com"}]
+authors = [{name = "Linh Nguyen", email = "linhd34.jp@gmail.com"}]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -30,9 +30,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/mcp-kintone-lite"
-Repository = "https://github.com/yourusername/mcp-kintone-lite"
-Issues = "https://github.com/yourusername/mcp-kintone-lite/issues"
+Homepage = "https://github.com/luvl/mcp-kintone-lite"
+Repository = "https://github.com/luvl/mcp-kintone-lite"
+Issues = "https://github.com/luvl/mcp-kintone-lite/issues"
 
 [project.scripts]
 mcp-kintone-lite = "mcp_kintone_lite.server:main"
@@ -41,7 +41,7 @@ mcp-kintone-lite = "mcp_kintone_lite.server:main"
 name = "mcp-kintone-lite"
 version = "0.1.0"
 description = "Simple and lightweight Kintone MCP server for connecting AI assistants to Kintone applications and data"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Linh Nguyen <linhd34.jp@gmail.com>"]
 readme = "README.md"
 packages = [{include = "mcp_kintone_lite", from = "src"}]
 
