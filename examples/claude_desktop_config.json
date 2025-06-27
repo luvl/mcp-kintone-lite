@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "kintone-lite": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mcp-kintone-lite",
+        "mcp-kintone-lite"
+      ],
+      "env": {
+        "KINTONE_SUBDOMAIN": "your-subdomain",
+        "KINTONE_USERNAME": "your-username",
+        "KINTONE_PASSWORD": "your-password"
+      }
+    }
+  }
+}
